@@ -1,0 +1,21 @@
+{
+  "name": "household-budget-app",
+  "version": "1.0.0",
+  "description": "공유 가계부 앱",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "keywords": ["budget", "household", "expense", "tracker"],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
